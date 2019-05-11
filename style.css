@@ -1,3 +1,29 @@
 .selector-for-some-widget {
   box-sizing: content-box;
 }
+body{
+  background-color: #f4f5f6;
+  color: #333
+}
+.nav-bg{
+  background: red;
+  color: white;
+  height: 90px;
+}
+
+.nav-link{
+  color: white;
+}
+
+.btn-subscribe{
+  background: white;
+  border-radius: 0px;
+  color: red;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.nav-sign{
+  text-transform: uppercase;
+  font-weight: 500;
+}
