@@ -11,6 +11,8 @@
     <!-- Font awesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- Google font CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
     <title>News Week</title>
@@ -19,30 +21,97 @@
 
   <body>
     <div class="container">
-      <nav class="navbar navbar-expand-lg nav-bg">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="pos-f-t">
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm nav-bg">
+        <div class="top-navbar">
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <span class="navbar-text mr-auto">
+          <div class="navbar-left mr-auto">
             Sat, May 11, 2019
-          </span>
-
-          <a class="navbar-brand mr-auto" href="#">
-            <img src="images/logo.png" alt="">
-          </a>
-
-          <span class="navbar-text nav-sign">
-            Sign In
-          </span>
-          <button class="btn btn-subscribe my-2 my-sm-0 ml-2" type="submit">Subscribe
-            <span><i class="fas fa-chevron-right"></i></span></button>
-        </div>
+          </div>
+          <div class="nav-logo">
+            <a class="navbar-brand mr-auto" href="#">
+              <img src="images/logo.png" alt="logo" class="img-fluid">
+            </a>
+          </div>
+          <div class="nav-right">
+            <span class="navbar-text nav-sign">
+              Sign In
+            </span>
+            <button class="btn btn-subscribe my-2 my-sm-0 ml-2" type="submit">Subscribe
+              <span><i class="fas fa-chevron-right"></i></span></button>
+          </div>
+          <div class="hamburger-menu"></div>
       </nav>
-    </div>
+      <main>
+        <div class="nav-bottom mb-5">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">U.S.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">World</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tech & Science</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Culture</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Health</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Opinion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ndelible</a>
+            </li>
+            <li class="nav-item">
+              <input class="search-nav mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </li>
+          </ul>
+          <hr>
+        </div>
+        <section class="articles-one">
+          <div class="row">
+            <div class="col">
+              <h1>Featured Stories</h1>
+              <div class="card">
+                <img src="./images/title1.jpg" class="card-img-top" alt="...">
+                <div class="card-content">
+                  <h2 class="card-title"><a> Attacks Myth Connecting Poverty to Person's Character</a></h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-5">
+              <h1>Top Story</h1>
+              <div class="card">
+                <img src="./images/title2.jpg" class="card-img-top" alt="...">
+                <div class="card-content">
+                  <h2 class="card-title"><a> Attacks Myth Connecting Poverty to Person's Character</a></h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.
+                  </p>
+                </div>
+              </div>
 
+            </div>
+            <div class="col">
+              <h1>Opinion</h1>
+            </div>
+          </div>
+        </section>
+      </main>
   </body>
 
 </html>

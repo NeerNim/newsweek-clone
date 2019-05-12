@@ -3,14 +3,25 @@
 }
 body{
   background-color: #f4f5f6;
-  color: #333
+  color: #333;
+  font-family: Arial,Helvetica,sans-serif;
+}
+ul li a{
+  font-family: "Roboto Condensed",sans-serif;  
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0.5em 0;
 }
 .nav-bg{
   background: red;
   color: white;
   height: 90px;
 }
-
+.container{
+  max-width: 1310px;
+  padding: 0;
+}
 .nav-link{
   color: white;
 }
@@ -27,3 +38,118 @@ body{
   text-transform: uppercase;
   font-weight: 500;
 }
+main{
+  background: white;
+}
+.nav-bottom{
+  position: relative;
+}
+.nav-bottom::before{
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 62px;
+  background-color: #f72210;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+}
+.nav-bottom li{
+  margin-top: 1em;
+  padding: 0 0.4em;
+  border-right: 1px solid darkgray;
+}
+.nav-bottom li a{  
+  color: black;
+  text-transform: uppercase;
+  padding: 0 1.2em;
+  font-size: 1.1em;
+}
+
+.nav-bottom li:last-child{
+  border-right: none;
+}
+
+.search-nav{
+  background: url(./images/search.png) no-repeat 109% 31%;
+  border: none;
+  width: 92px;
+  padding-left: 0.5em;
+}
+.top-navbar{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.nav-logo{
+  margin: 0 auto;
+}
+.search-nav:focus{
+  outline:none;
+}
+.articles-one{
+  margin: 0 2em;
+}
+.articles-one h1{
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3,3,3,.4);
+}
+.card-img-one{
+  width: 397px;
+}
+.card{
+  border: none;
+}
+.card-content h2{
+  font-size: 24px;
+  line-height: 24px;
+
+}
+.card-img-two{
+  width: 500px;
+}
+@media (max-width: 50em) { 
+  .navbar-left{
+    display: none;
+  } 
+  .nav-bottom::before{
+    display: none
+  }
+  .nav-sign, .btn-subscribe{
+    font-size: 0.5em;
+  }
+  .nav-bg{
+    max-height: 55px;    
+  }
+  .hamburger-menu{
+    background: url("./images/burger-menu.png") no-repeat;
+    width: 1.5em;
+    height: 2em;
+  }
+  .nav-logo{
+    width: 40%;
+    margin-left: 0;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 60%;
+  }
+  .nav-bottom{
+    display: none;
+  }
+  main{
+    padding-top: 1em;
+  }
+  .articles-one {
+    margin: 0 1em;
+  }
+.card-img-top{
+  width: 100%;
+}
+
+}
+
