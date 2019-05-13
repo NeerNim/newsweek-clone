@@ -6,6 +6,22 @@ body{
   color: #333;
   font-family: Arial,Helvetica,sans-serif;
 }
+a{
+  color: #666;
+}
+p{
+  font-size: 15px;
+}
+ul li{
+  list-style: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+
 ul li a{
   font-family: "Roboto Condensed",sans-serif;  
 }
@@ -100,6 +116,17 @@ main{
 .card-img-one{
   width: 397px;
 }
+.opinion img{
+  width: 4.5rem;
+}
+.opinion h5{
+  font-size: 17px;
+}
+
+
+
+
+
 .card{
   border: none;
 }
@@ -153,3 +180,97 @@ main{
 
 }
 
+.btn-red{
+  background: red;
+  border-radius: 0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 0 0.5em;
+}
+.side-img{
+  padding: 0 2rem;
+}
+h5{
+  font-size: 900;
+  color: black;
+}
+
+.red-text{
+  color:red;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.red span{
+  font-size: 0.8em;
+}
+
+.four-row{
+  padding: 0 1rem;
+}
+
+.bg-text{
+  background-color: rgba(255,255,255,.9);
+  color:red;
+  padding: 0.7em 0;
+  font-weight: 900;
+}
+.card-img-overlay{
+    top: 42%;
+    padding: 0;
+    width: 6em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feature-slideshow{
+  padding: 0 2rem;
+}
+
+.us{
+  padding: 0 2rem;
+}
+.news-letter{
+  border: 1px solid #e6e6e6;
+  background-color: #f8f8f8;
+}
+.btn-signup{
+      background: red;
+    border-radius: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0.5em 0.7em;
+}
+.footer li {
+  display: inline-block;
+  font-size: 0.9em;
+  color: darkgray;
+}
+
+.footer li a{
+  border-right: 1px solid darkgray;
+  color: #666;
+  padding: 0 1em;
+}
+
+.footer li:last-child a{
+ border-right: none;
+   
+}
+
+.footer{
+  padding: 0 0 5em 2em;
+}
+
+.footer-logo img{
+  width: 30%;
+  margin-right: 3em;
+}
+.social-img img{
+  width: 95%;
+}
