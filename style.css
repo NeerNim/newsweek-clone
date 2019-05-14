@@ -1,0 +1,369 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+body{
+  background-color: #f4f5f6;
+  color: #333;
+  font-family: Arial,Helvetica,sans-serif;
+}
+a{
+  color: #666;
+}
+a:hover{
+  color: #666;
+}
+
+p{
+  font-size: 15px;
+}
+ul li{
+  list-style: none;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+ul li a{
+  font-family: "Roboto Condensed",sans-serif;  
+}
+h1, h2, h3, h4, h5{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0.5em 0;
+}
+.nav-bg{
+  background: red;
+  color: white;
+  height: 90px;
+}
+.container{
+  max-width: 1310px;
+  padding: 0;
+}
+.nav-link{
+  color: white;
+}
+
+.btn-subscribe{
+  background: white;
+  border-radius: 0px;
+  color: red;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.nav-sign{
+  text-transform: uppercase;
+  font-weight: 500;
+}
+main{
+  background: white;
+}
+.nav-bottom{
+  position: relative;
+}
+.nav-bottom::before{
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 62px;
+  background-color: #f72210;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+}
+.nav-bottom li{
+  margin-top: 1em;
+  padding: 0 0.4em;
+  border-right: 1px solid darkgray;
+}
+.nav-bottom li a{  
+  color: black;
+  text-transform: uppercase;
+  padding: 0 1.2em;
+  font-size: 1.1em;
+}
+
+.nav-bottom li a:hover{
+  color: red;
+}
+
+.nav-bottom li:last-child{
+  border-right: none;
+}
+
+.search-nav{
+  background: url(./images/search.png) no-repeat 109% 31%;
+  border: none;
+  width: 92px;
+  padding-left: 0.5em;
+}
+.top-navbar{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.nav-logo{
+  margin: 0 auto;
+}
+.search-nav:focus{
+  outline:none;
+}
+.articles-one{
+  margin: 0 2em;
+}
+.articles-one h1{
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 11px;
+  color: rgba(3,3,3,.4);
+}
+.card-img-one{
+  width: 397px;
+}
+.opinion img{
+  width: 4.5rem;
+}
+.opinion h5{
+  font-size: 17px;
+}
+
+
+
+
+
+.card{
+  border: none;
+}
+.card-content h2{
+  font-size: 24px;
+  line-height: 24px;
+
+}
+.card-img-two{
+  width: 500px;
+}
+@media (max-width: 50em) { 
+  .navbar-left{
+    display: none;
+  } 
+  .nav-bottom::before{
+    display: none
+  }
+  .nav-sign, .btn-subscribe{
+    font-size: 0.5em;
+  }
+  .nav-bg{
+    max-height: 55px;    
+  }
+  .hamburger-menu{
+    background: url("./images/burger-menu.png") no-repeat;
+    width: 1.5em;
+    height: 2em;
+  }
+  .nav-logo{
+    width: 39%;
+    margin-left: 0;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 60%;
+  }
+  .nav-bottom{
+    display: none;
+  }
+  main{
+    padding-top: 1em;
+  }
+  .articles-one {
+    margin: 0 1em;
+  }
+.card-img-top{
+  width: 100%;
+}
+
+}
+
+.btn-red{
+  background: red;
+  border-radius: 0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  padding: 0 0.5em;
+}
+h5{
+  font-size: 900;
+  color: black;
+}
+
+.red-text{
+  color:red;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.red span{
+  font-size: 0.8em;
+}
+
+.four-row{
+  padding: 0 1rem;
+}
+
+.bg-text{
+  background-color: rgba(255,255,255,.9);
+  color:red;
+  padding: 0.7em 0;
+  font-weight: 900;
+}
+.card-img-overlay{
+    top: 42%;
+    padding: 0;
+    width: 6em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.feature-slideshow{
+  padding: 0 2rem;
+}
+
+.us{
+  padding: 0 1rem;
+}
+.news-letter{
+  border: 1px solid #e6e6e6;
+  background-color: #f8f8f8;
+  padding: 1em;
+}
+.btn-signup{
+      background: red;
+    border-radius: 0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1em;
+    padding: 0.5em 0.7em;
+}
+.footer li {
+  display: inline-block;
+  font-size: 0.9em;
+  color: darkgray;
+}
+
+.footer li a{
+  border-right: 1px solid darkgray;
+  color: #666;
+  padding: 0 1em;
+}
+
+.footer li:last-child a{
+ border-right: none;
+   
+}
+
+.footer{
+  padding: 0 0 5em 2em;
+}
+
+.footer-logo img{
+  width: 30%;
+  margin-right: 3em;
+}
+.social-img img{
+  width: 95%;
+}
+
+.magazine h2{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+.editor-pick h2{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bolder;
+
+}
+
+.side1-img{
+  margin-top: 3em;
+}
+
+.second{
+  padding: 0 2em;
+}
+
+
+.feature-slideshow h2 {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+.us h1{
+  color: red;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+article .image{
+      float: left;
+    width: 135px;
+    margin-right: 15px;
+}
+.clearfix{
+  clear: both;
+}
+
+.card-body{
+  padding-top: 0.5em;
+}
+
+.opinion{
+  border-bottom: 1px solid lightgray;
+  padding: 1em 0;
+}
+
+.opinion a{
+  color: black;
+}
+
+.opinion a:hover{
+  color:red;
+  text-decoration: none; 
+}
+
+h2:hover, h3:hover, h5:hover{
+  cursor: pointer;
+  color: black;
+}
+
+.articles-one h2:hover{
+  text-decoration: underline;
+}
+
+article h5:hover{
+text-decoration: underline;
+}
+.opinion:last-child{
+  border-bottom: none;  
+}
+
+@media (max-width: 10em) { 
+  .footer-logo img {
+    width: 90%;
+    margin-right: 3em;
+  }
+  .social-img img {
+    width: 70%;
+}
+}

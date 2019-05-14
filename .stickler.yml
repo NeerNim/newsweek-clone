@@ -1,0 +1,4 @@
+---
+linters:
+    csslint:
+        ignore: 'box-sizing,universal-selector,fallback-colors,duplicate-background-images,order-alphabetical,outline-none'
