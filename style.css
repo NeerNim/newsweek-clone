@@ -9,6 +9,10 @@ body{
 a{
   color: #666;
 }
+a:hover{
+  color: #666;
+}
+
 p{
   font-size: 15px;
 }
@@ -333,6 +337,23 @@ article .image{
   color: black;
 }
 
+.opinion a:hover{
+  color:red;
+  text-decoration: none; 
+}
+
+h2:hover, h3:hover, h5:hover{
+  cursor: pointer;
+  color: black;
+}
+
+.articles-one h2:hover{
+  text-decoration: underline;
+}
+
+article h5:hover{
+text-decoration: underline;
+}
 .opinion:last-child{
   border-bottom: none;  
 }
